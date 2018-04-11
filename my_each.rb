@@ -8,6 +8,7 @@ def my_each(array) # put argument(s) here
   while counter < array.length
     yield(words[counter])
     counter +=1
+    puts word
   end
   array
  end
