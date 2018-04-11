@@ -3,7 +3,7 @@
 def my_each(array) # put argument(s) here
   counter = 0
   my_each(words) do |word|
-  while counter 
+  while counter < array.length
     yield(words[counter])
     counter +=1
 end
