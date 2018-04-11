@@ -5,7 +5,7 @@ def my_each(array) # put argument(s) here
   empty_array = []
 #binding.pry
   #my_each(words) do |word|
-  while counter < array.length
+  while my_each < array.length
     yield(words[counter])
     counter +=1
     binding.pry
